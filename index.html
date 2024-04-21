@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site Pessoal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="no-margin-padding ">
+    <header class="header-custom">
+        <div class="container-fluidr">  
+            <a href="index.html">
+            <img src="assets/img/Logo_PV.jpg" alt="Logo do Site" class="logo">
+        </a>
+            <div class="buttons">
+                <button type="button" class="btn btn-outline-light mr-1" onclick="location.href='#repositorios'">Repositório</button>
+                <button type="button" class="btn btn-outline-light mr-1" onclick="location.href='#Conteúdo'">Conteúdo</button>
+                <button type="button" class="btn btn-outline-light mr-5" onclick="location.href='#colegas-trabalho'">Colegas de trabalho</button>
+            </div>  
+        </div>
+    </header>   
+    <section id="Perfil" style="margin-top: 30px;margin-bottom: 10px">
+        <div class="container-sm">
+            <h2 class="text-center" >Perfil</h2>
+          <div id="container-perfil" class="row">
+            <div class="col-md-auto">
+                <img src="assets/img/foto_perfil.jpg" alt="imagem de perfil" class="body-image m-4 ml-5">
+            </div>
+    
+            <div class="col-md-7">
+                <h4 class="text-center" style="margin-top: 30px; margin-right: 190px;">Pedro Henrique Santos Vieira</h4>
+              <div class="col text-start">
+                <p class="texto">Olá, Eu sou Pedro Vieira tenho 19 anos e gosto de informática em geral. atualmente criei interesse por programação, uma área que você nunca consegue ter total dominância. Atualmente tenho conhecimento em C, Html e Css, mas futuramente busco aprender Phyton, Java e C#</p>
+                <p>
+                <div class="d-flex align-items-center">
+                     <strong class="mr-2">Localização:</strong>
+                    <p class="mb-0">Contagem, MG Brasil</p>
+                </div>
+                <strong>Site: <a  href="https://github.com/PdroVieiraa" target="_blank">https://github.com/PdroVieiraa</a> </strong>
+              </div>
+                <ul class="list-inline mt-4" style="list-style: none; display: flex; justify-content: space-around;"
+                  id="socialMedias">
+                  <li class="list-inline-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#007bff"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                  </li>
+                  <li class="list-inline-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#1DA1F2"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                    </svg>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.instagram.com/pdro_vieir.a/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#833AB4"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    </section>
+      <div id="repositorios" class="repositorios">
+        <h2 class="text-center">Repositórios</h2>
+        <hr>
+        <div class="container-sm">
+          <div class="row row-cols-3 ml-1 md-4">
+            <div class="d-flex flex-column col">
+                <div class="card" style="width: 23rem; height: auto;">
+                <div class="card-body">
+                  <h5 class="card-title">Porshe</h5>
+                  <p class="card-text">Design criado apenas para entrega de tarefas acadêmicas</p>
+                  <div class="d-flex justify-content-evenly"> 
+                    <p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" 
+                             fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                             <path
+                                 d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                         </svg>
+                         0
+                     </p>
+                    <div class="estrelas ml-5">
+                     <p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                             fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                             <path
+                                 d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                         </svg>
+                         1
+                     </p>
+                    </div>
+                 </div>
+                  <a href="repo1.html" type="button" class="btn btn-primary mt-auto">Ir ao Repositório</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column col">
+                <div class="card " style="width: 23rem; height: auto;">
+                <div class="card-body">
+                  <h5 class="card-title">Loja de Veículos</h5>
+                  <p class="card-text">Design criado apenas para entrega de tarefas acadêmicas</p>
+                  <div class="d-flex justify-content-evenly">
+                    <p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                             fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                             <path
+                                 d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                         </svg>
+                         0
+                     </p>
+                     <div class="estrelas ml-5">
+                     <p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16"
+                             fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                             <path
+                                 d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                         </svg>
+                         1
+                     </p>
+                    </div>
+                 </div>
+                  <a href="repo2.html" type="button" class="btn btn-primary mt-auto">Ir ao Repositório</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column col">
+                <div class="card" style="width: 23rem; height: auto;">
+                <div class="card-body">
+                  <h5 class="card-title">Antartica-Bootstrap</h5>
+                  <p class="card-text">Design criado apenas para entrega de tarefas acadêmicas utilizando bootstrap</p>
+                  <div class="d-flex justify-content-evenly">
+                    <p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                             fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                             <path
+                                 d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                         </svg>
+                         0
+                     </p>
+                     <p>
+                        <div class="estrelas ml-5">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                             fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                             <path
+                                 d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                         </svg>
+                         1
+                        </div>
+                     </p>
+                 </div>
+                  <a href="repo3.html" type="button" class="btn btn-primary mt-auto">Ir ao Repositório</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h2 id="Conteúdo" class="text-center"  style="margin-top: 10px;margin-bottom: 20px">Conteúdo </h2>
+      <div class="carousel">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/imagem1.png" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/imagem2.png" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/imagem3.png" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+        </div>
+      </div>
+      
+      
+      </div>
+    
+      <hr>
+      <div  id="colegas-trabalho" class="colegas-trabalho mb-mt-5">
+        <h3>Colegas de Trabalho</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-5 text-center imagem">
+              <img height="230px" width="250px" src="assets/img/foto1.png" alt="" class="img-fluid">
+              <div class="mt-3">
+                <p>Carlos</p>
+              </div>
+            </div>
+            <div class="col-5 text-center imagem">
+              <img height="230px" width="250px" src="assets/img/foto4.png" alt="" class="img-fluid">
+              <div class="mt-3">
+                <p>Luiz</p>
+              </div>
+            </div>
+            <div class="col-5 text-center imagem">
+              <img height="230px" width="250px" src="assets/img/foto5.png" alt="" class="img-fluid ">
+              <div class="mt-3">
+                <p>Marcos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <footer class="fim">
+        <p>&copy; 2024 Site criado para realização de exercícios e testes sem fins lucrativos<br> Pedro Henrique Santos Vieira. Engenharia de Software PUC minas.</p>
+        <p> Canais de Contato: <br> pedrohsantos355@gmail.com</p>
+    </footer>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>
